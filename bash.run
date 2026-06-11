@@ -1,0 +1,5 @@
+# 1. Generate the migration files representing the expanded tables 
+npx drizzle-kit generate
+
+# 2. Apply updates securely directly onto your Google Cloud SQL Storage instance
+npx drizzle-kit migrate
